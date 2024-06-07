@@ -1,0 +1,19 @@
+{
+    "name": "mjack/kiona",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Kiona\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mindaugas Jackūnas",
+            "email": "mindaugas@jackunas.lt"
+        }
+    ],
+    "require": {
+        "symfony/console": "^7.1",
+        "beberlei/assert": "^3.3"
+    }
+}
